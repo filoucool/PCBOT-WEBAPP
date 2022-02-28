@@ -1,0 +1,259 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-02-27 21:18:47
+count workspace : c:\Users\Filouuuuuu\Desktop\robot webapp
+total files : 236
+total code lines : 51886
+total comment lines : 387
+total blank lines : 10680
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |             99|              2|              8|   0.19|
+   |          .json|          41569|              0|             13|     80|
+   |          .html|             24|              3|              7|  0.046|
+   |            .md|              0|              0|              0|    0.0|
+   |            .js|           7509|            382|            681|     14|
+   |           .svg|             49|              0|              0|  0.094|
+   |          .lock|           2636|              0|           9971|    5.1|
+   -------------------------------------------------------------------------
+.eslintrc, code is 72, comment is 0, blank is 2.
+.gitignore, code is 20, comment is 1, blank is 6.
+.prettierrc, code is 7, comment is 0, blank is 0.
+.vs\material-kit-react-main\v16\.suo, it is a binary file.
+.vs\slnx.sqlite, it is a binary file.
+.vs\VSWorkspaceState.json, code is 5, comment is 0, blank is 1.
+jsconfig.json, code is 11, comment is 0, blank is 2.
+package-lock.json, code is 41443, comment is 0, blank is 6.
+package.json, code is 90, comment is 0, blank is 4.
+public\_redirects, code is 0, comment is 1, blank is 0.
+public\favicon\android-chrome-192x192.png, it is a binary file.
+public\favicon\android-chrome-512x512.png, it is a binary file.
+public\favicon\apple-touch-icon.png, it is a binary file.
+public\favicon\favicon-16x16.png, it is a binary file.
+public\favicon\favicon-32x32.png, it is a binary file.
+public\favicon\favicon.ico, it is a binary file.
+public\index.html, code is 24, comment is 3, blank is 7.
+public\manifest.json, code is 20, comment is 0, blank is 0.
+public\static\icons\ic_flag_de.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_flag_en.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_flag_fr.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_notification_chat.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_notification_mail.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_notification_package.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\ic_notification_shipping.svg, code is 1, comment is 0, blank is 0.
+public\static\icons\shape-avatar.svg, code is 1, comment is 0, blank is 0.
+public\static\illustrations\illustration_404.svg, code is 40, comment is 0, blank is 0.
+public\static\illustrations\illustration_avatar.png, it is a binary file.
+public\static\illustrations\illustration_login.png, it is a binary file.
+public\static\illustrations\illustration_register.png, it is a binary file.
+public\static\logo.svg, code is 1, comment is 0, blank is 0.
+public\static\mock-images\avatars\avatar_1.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_10.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_11.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_12.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_13.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_14.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_15.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_16.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_17.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_18.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_19.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_2.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_20.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_21.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_22.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_23.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_24.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_3.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_4.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_5.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_6.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_7.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_8.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_9.jpg, it is a binary file.
+public\static\mock-images\avatars\avatar_default.jpg, it is a binary file.
+public\static\mock-images\covers\cover_1.jpg, it is a binary file.
+public\static\mock-images\covers\cover_10.jpg, it is a binary file.
+public\static\mock-images\covers\cover_11.jpg, it is a binary file.
+public\static\mock-images\covers\cover_12.jpg, it is a binary file.
+public\static\mock-images\covers\cover_13.jpg, it is a binary file.
+public\static\mock-images\covers\cover_14.jpg, it is a binary file.
+public\static\mock-images\covers\cover_15.jpg, it is a binary file.
+public\static\mock-images\covers\cover_16.jpg, it is a binary file.
+public\static\mock-images\covers\cover_17.jpg, it is a binary file.
+public\static\mock-images\covers\cover_18.jpg, it is a binary file.
+public\static\mock-images\covers\cover_19.jpg, it is a binary file.
+public\static\mock-images\covers\cover_2.jpg, it is a binary file.
+public\static\mock-images\covers\cover_20.jpg, it is a binary file.
+public\static\mock-images\covers\cover_21.jpg, it is a binary file.
+public\static\mock-images\covers\cover_22.jpg, it is a binary file.
+public\static\mock-images\covers\cover_23.jpg, it is a binary file.
+public\static\mock-images\covers\cover_24.jpg, it is a binary file.
+public\static\mock-images\covers\cover_3.jpg, it is a binary file.
+public\static\mock-images\covers\cover_4.jpg, it is a binary file.
+public\static\mock-images\covers\cover_5.jpg, it is a binary file.
+public\static\mock-images\covers\cover_6.jpg, it is a binary file.
+public\static\mock-images\covers\cover_7.jpg, it is a binary file.
+public\static\mock-images\covers\cover_8.jpg, it is a binary file.
+public\static\mock-images\covers\cover_9.jpg, it is a binary file.
+public\static\mock-images\products\product_1.jpg, it is a binary file.
+public\static\mock-images\products\product_10.jpg, it is a binary file.
+public\static\mock-images\products\product_11.jpg, it is a binary file.
+public\static\mock-images\products\product_12.jpg, it is a binary file.
+public\static\mock-images\products\product_13.jpg, it is a binary file.
+public\static\mock-images\products\product_14.jpg, it is a binary file.
+public\static\mock-images\products\product_15.jpg, it is a binary file.
+public\static\mock-images\products\product_16.jpg, it is a binary file.
+public\static\mock-images\products\product_17.jpg, it is a binary file.
+public\static\mock-images\products\product_18.jpg, it is a binary file.
+public\static\mock-images\products\product_19.jpg, it is a binary file.
+public\static\mock-images\products\product_2.jpg, it is a binary file.
+public\static\mock-images\products\product_20.jpg, it is a binary file.
+public\static\mock-images\products\product_21.jpg, it is a binary file.
+public\static\mock-images\products\product_22.jpg, it is a binary file.
+public\static\mock-images\products\product_23.jpg, it is a binary file.
+public\static\mock-images\products\product_24.jpg, it is a binary file.
+public\static\mock-images\products\product_3.jpg, it is a binary file.
+public\static\mock-images\products\product_4.jpg, it is a binary file.
+public\static\mock-images\products\product_5.jpg, it is a binary file.
+public\static\mock-images\products\product_6.jpg, it is a binary file.
+public\static\mock-images\products\product_7.jpg, it is a binary file.
+public\static\mock-images\products\product_8.jpg, it is a binary file.
+public\static\mock-images\products\product_9.jpg, it is a binary file.
+public\static\preview.png, it is a binary file.
+README.md, code is 0, comment is 0, blank is 0.
+src\_mocks_\account.js, code is 6, comment is 1, blank is 2.
+src\_mocks_\blog.js, code is 42, comment is 2, blank is 5.
+src\_mocks_\products.js, code is 57, comment is 3, blank is 8.
+src\_mocks_\user.js, code is 23, comment is 2, blank is 4.
+src\App.js, code is 22, comment is 5, blank is 2.
+src\components\@material-extend\index.js, code is 1, comment is 0, blank is 0.
+src\components\@material-extend\MHidden.js, code is 28, comment is 2, blank is 8.
+src\components\_dashboard\app\AppConversionRates.js, code is 43, comment is 4, blank is 5.
+src\components\_dashboard\app\AppItemOrders.js, code is 41, comment is 4, blank is 6.
+src\components\_dashboard\app\AppNewsUpdate.js, code is 73, comment is 5, blank is 10.
+src\components\_dashboard\app\AppNewUsers.js, code is 41, comment is 4, blank is 6.
+src\components\_dashboard\app\AppTasks.js, code is 77, comment is 3, blank is 10.
+src\components\_dashboard\app\AppTrafficBySite.js, code is 62, comment is 4, blank is 7.
+src\components\_dashboard\app\AppWeeklySales.js, code is 41, comment is 4, blank is 6.
+src\components\_dashboard\app\index.js, code is 13, comment is 0, blank is 0.
+src\components\_dashboard\blog\BlogPostCard.js, code is 163, comment is 5, blank is 15.
+src\components\_dashboard\blog\BlogPostsSearch.js, code is 73, comment is 3, blank is 5.
+src\components\_dashboard\blog\BlogPostsSort.js, code is 17, comment is 2, blank is 3.
+src\components\_dashboard\blog\index.js, code is 3, comment is 0, blank is 0.
+src\components\_dashboard\products\index.js, code is 5, comment is 0, blank is 0.
+src\components\_dashboard\products\ProductCard.js, code is 66, comment is 5, blank is 8.
+src\components\_dashboard\products\ProductCartWidget.js, code is 33, comment is 3, blank is 4.
+src\components\_dashboard\products\ProductFilterSidebar.js, code is 209, comment is 4, blank is 15.
+src\components\_dashboard\products\ProductList.js, code is 17, comment is 2, blank is 3.
+src\components\_dashboard\products\ProductSort.js, code is 54, comment is 2, blank is 6.
+src\components\_dashboard\user\index.js, code is 3, comment is 0, blank is 0.
+src\components\_dashboard\user\UserListHead.js, code is 59, comment is 2, blank is 4.
+src\components\_dashboard\user\UserListToolbar.js, code is 80, comment is 3, blank is 7.
+src\components\_dashboard\user\UserMoreMenu.js, code is 41, comment is 2, blank is 5.
+src\components\animate\index.js, code is 2, comment is 0, blank is 0.
+src\components\animate\MotionContainer.js, code is 21, comment is 3, blank is 3.
+src\components\animate\variants\bounce\BounceIn.js, code is 59, comment is 1, blank is 8.
+src\components\animate\variants\bounce\BounceOut.js, code is 34, comment is 1, blank is 5.
+src\components\animate\variants\bounce\index.js, code is 2, comment is 0, blank is 0.
+src\components\animate\variants\index.js, code is 2, comment is 0, blank is 0.
+src\components\animate\variants\Wrap.js, code is 18, comment is 1, blank is 3.
+src\components\authentication\AuthSocial.js, code is 27, comment is 2, blank is 5.
+src\components\authentication\login\index.js, code is 1, comment is 0, blank is 0.
+src\components\authentication\login\LoginForm.js, code is 93, comment is 2, blank is 11.
+src\components\authentication\register\index.js, code is 1, comment is 0, blank is 0.
+src\components\authentication\register\RegisterForm.js, code is 95, comment is 2, blank is 10.
+src\components\charts\BaseOptionChart.js, code is 199, comment is 26, blank is 20.
+src\components\charts\index.js, code is 1, comment is 0, blank is 0.
+src\components\ColorManyPicker.js, code is 90, comment is 2, blank is 6.
+src\components\ColorPreview.js, code is 32, comment is 3, blank is 8.
+src\components\Label.js, code is 71, comment is 3, blank is 11.
+src\components\Logo.js, code is 8, comment is 2, blank is 3.
+src\components\MenuPopover.js, code is 46, comment is 3, blank is 6.
+src\components\NavSection.js, code is 150, comment is 3, blank is 16.
+src\components\Page.js, code is 17, comment is 2, blank is 4.
+src\components\Scrollbar.js, code is 52, comment is 3, blank is 8.
+src\components\ScrollToTop.js, code is 9, comment is 1, blank is 4.
+src\components\SearchNotFound.js, code is 18, comment is 2, blank is 3.
+src\components\SvgIconStyle.js, code is 26, comment is 1, blank is 3.
+src\http-common.js, code is 7, comment is 0, blank is 1.
+src\index.js, code is 15, comment is 3, blank is 5.
+src\layouts\AuthLayout.js, code is 43, comment is 5, blank is 6.
+src\layouts\dashboard\AccountPopover.js, code is 104, comment is 5, blank is 11.
+src\layouts\dashboard\DashboardNavbar.js, code is 64, comment is 6, blank is 11.
+src\layouts\dashboard\DashboardSidebar.js, code is 75, comment is 6, blank is 11.
+src\layouts\dashboard\index.js, code is 36, comment is 4, blank is 7.
+src\layouts\dashboard\LanguagePopover.js, code is 68, comment is 4, blank is 8.
+src\layouts\dashboard\NotificationsPopover.js, code is 250, comment is 4, blank is 19.
+src\layouts\dashboard\Searchbar.js, code is 77, comment is 4, blank is 9.
+src\layouts\dashboard\SidebarConfig.js, code is 41, comment is 1, blank is 4.
+src\layouts\LogoOnlyLayout.js, code is 26, comment is 4, blank is 4.
+src\pages\DashboardApp.js, code is 17, comment is 3, blank is 2.
+src\pages\dummy.png, it is a binary file.
+src\pages\EventViewer.js, code is 186, comment is 4, blank is 21.
+src\pages\LiveCamera.js, code is 54, comment is 3, blank is 2.
+src\pages\Login.js, code is 70, comment is 5, blank is 10.
+src\pages\Page404.js, code is 44, comment is 4, blank is 6.
+src\pages\Products.js, code is 66, comment is 4, blank is 10.
+src\pages\Register.js, code is 83, comment is 5, blank is 12.
+src\pages\SensorData.js, code is 22, comment is 3, blank is 1.
+src\pages\Settings.js, code is 664, comment is 24, blank is 15.
+src\pages\SystemHealth.js, code is 36, comment is 2, blank is 2.
+src\pages\Widgets\AppAmperageGrid.js, code is 121, comment is 1, blank is 3.
+src\pages\Widgets\AppAmperageSensor.js, code is 76, comment is 3, blank is 5.
+src\pages\Widgets\AppBugsOverTime.js, code is 52, comment is 3, blank is 5.
+src\pages\Widgets\AppCpuTemp.js, code is 76, comment is 3, blank is 5.
+src\pages\Widgets\AppCurrentTask.js, code is 39, comment is 4, blank is 7.
+src\pages\Widgets\AppDataTabs.js, code is 67, comment is 0, blank is 3.
+src\pages\Widgets\AppDistributionOfTask.js, code is 55, comment is 4, blank is 8.
+src\pages\Widgets\AppDistributionOfTime.js, code is 51, comment is 5, blank is 7.
+src\pages\Widgets\AppErrorReports.js, code is 37, comment is 4, blank is 6.
+src\pages\Widgets\AppGasGrid.js, code is 143, comment is 1, blank is 3.
+src\pages\Widgets\AppGasSensor.js, code is 63, comment is 3, blank is 5.
+src\pages\Widgets\AppGpuTemp.js, code is 76, comment is 3, blank is 5.
+src\pages\Widgets\AppHumidityGrid.js, code is 121, comment is 1, blank is 3.
+src\pages\Widgets\AppHumiditySensor.js, code is 73, comment is 3, blank is 5.
+src\pages\Widgets\AppLatestEvent.js, code is 92, comment is 4, blank is 7.
+src\pages\Widgets\AppPhotoresistorGrid.js, code is 124, comment is 1, blank is 3.
+src\pages\Widgets\AppPhotoresistorSensor.js, code is 67, comment is 3, blank is 6.
+src\pages\Widgets\AppRamUsage.js, code is 73, comment is 3, blank is 5.
+src\pages\Widgets\AppRessourceMonitor.js, code is 72, comment is 6, blank is 5.
+src\pages\Widgets\AppSuccessReports.js, code is 37, comment is 4, blank is 6.
+src\pages\Widgets\AppTemperatureGrids.js, code is 121, comment is 1, blank is 3.
+src\pages\Widgets\AppTempSensor.js, code is 76, comment is 3, blank is 5.
+src\pages\Widgets\AppVoltageGrid.js, code is 121, comment is 1, blank is 3.
+src\pages\Widgets\AppVoltageSensor.js, code is 76, comment is 3, blank is 5.
+src\pages\Widgets\AppWarningsReports.js, code is 37, comment is 4, blank is 6.
+src\pages\Widgets\HealthGrid.js, code is 179, comment is 1, blank is 3.
+src\reportWebVitals.js, code is 12, comment is 0, blank is 1.
+src\routes.js, code is 37, comment is 3, blank is 2.
+src\services\db.services.js, code is 25, comment is 1, blank is 8.
+src\serviceWorker.js, code is 89, comment is 33, blank is 13.
+src\setupTests.js, code is 1, comment is 4, blank is 0.
+src\theme\breakpoints.js, code is 10, comment is 0, blank is 1.
+src\theme\globalStyles.js, code is 67, comment is 3, blank is 5.
+src\theme\index.js, code is 34, comment is 3, blank is 5.
+src\theme\overrides\Autocomplete.js, code is 11, comment is 1, blank is 1.
+src\theme\overrides\Backdrop.js, code is 22, comment is 1, blank is 3.
+src\theme\overrides\Button.js, code is 40, comment is 1, blank is 1.
+src\theme\overrides\Card.js, code is 32, comment is 2, blank is 1.
+src\theme\overrides\IconButton.js, code is 23, comment is 1, blank is 2.
+src\theme\overrides\index.js, code is 25, comment is 1, blank is 2.
+src\theme\overrides\Input.js, code is 63, comment is 1, blank is 1.
+src\theme\overrides\Lists.js, code is 33, comment is 1, blank is 1.
+src\theme\overrides\Paper.js, code is 14, comment is 1, blank is 2.
+src\theme\overrides\Tooltip.js, code is 14, comment is 1, blank is 1.
+src\theme\overrides\Typography.js, code is 14, comment is 1, blank is 1.
+src\theme\palette.js, code is 112, comment is 2, blank is 8.
+src\theme\shadows.js, code is 55, comment is 2, blank is 8.
+src\theme\shape.js, code is 6, comment is 1, blank is 2.
+src\theme\typography.js, code is 95, comment is 1, blank is 5.
+src\utils\formatNumber.js, code is 17, comment is 1, blank is 6.
+src\utils\formatTime.js, code is 15, comment is 1, blank is 5.
+src\utils\mockImages.js, code is 3, comment is 1, blank is 1.
+yarn.lock, code is 2636, comment is 0, blank is 9971.
+===============================================================================

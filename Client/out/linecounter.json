@@ -1,0 +1,1556 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\Filouuuuuu\\Desktop\\robot webapp",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-02-27 21:18:47",
+            "filesum": 236,
+            "codesum": 51886,
+            "commentsum": 387,
+            "blanksum": 10680,
+            "statistics": {
+                "": {
+                    "code": 99,
+                    "comment": 2,
+                    "blank": 8
+                },
+                ".json": {
+                    "code": 41569,
+                    "comment": 0,
+                    "blank": 13
+                },
+                ".html": {
+                    "code": 24,
+                    "comment": 3,
+                    "blank": 7
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 7509,
+                    "comment": 382,
+                    "blank": 681
+                },
+                ".svg": {
+                    "code": 49,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".lock": {
+                    "code": 2636,
+                    "comment": 0,
+                    "blank": 9971
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": ".eslintrc"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": ".prettierrc"
+                },
+                {
+                    "filename": ".vs\\material-kit-react-main\\v16\\.suo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".vs\\VSWorkspaceState.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "jsconfig.json"
+                },
+                {
+                    "blank": 6,
+                    "code": 41443,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 1,
+                    "filename": "public\\_redirects"
+                },
+                {
+                    "filename": "public\\favicon\\android-chrome-192x192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon\\android-chrome-512x512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon\\apple-touch-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon\\favicon-16x16.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon\\favicon-32x32.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\favicon\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 3,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_flag_de.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_flag_en.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_flag_fr.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_notification_chat.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_notification_mail.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_notification_package.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\ic_notification_shipping.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\icons\\shape-avatar.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "public\\static\\illustrations\\illustration_404.svg"
+                },
+                {
+                    "filename": "public\\static\\illustrations\\illustration_avatar.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\illustrations\\illustration_login.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\illustrations\\illustration_register.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "public\\static\\logo.svg"
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_10.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_11.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_12.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_13.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_14.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_15.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_16.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_17.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_18.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_20.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_21.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_22.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_23.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_24.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_4.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_5.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_6.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_7.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_8.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_9.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\avatars\\avatar_default.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_10.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_11.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_12.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_13.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_14.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_15.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_16.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_17.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_18.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_20.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_21.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_22.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_23.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_24.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_4.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_5.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_6.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_7.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_8.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\covers\\cover_9.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_10.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_11.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_12.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_13.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_14.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_15.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_16.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_17.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_18.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_19.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_20.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_21.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_22.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_23.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_24.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_4.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_5.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_6.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_7.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_8.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\mock-images\\products\\product_9.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\static\\preview.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "src\\_mocks_\\account.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 42,
+                    "comment": 2,
+                    "filename": "src\\_mocks_\\blog.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 57,
+                    "comment": 3,
+                    "filename": "src\\_mocks_\\products.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "src\\_mocks_\\user.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 5,
+                    "filename": "src\\App.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\@material-extend\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 2,
+                    "filename": "src\\components\\@material-extend\\MHidden.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\app\\AppConversionRates.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\app\\AppItemOrders.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 73,
+                    "comment": 5,
+                    "filename": "src\\components\\_dashboard\\app\\AppNewsUpdate.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\app\\AppNewUsers.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 77,
+                    "comment": 3,
+                    "filename": "src\\components\\_dashboard\\app\\AppTasks.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 62,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\app\\AppTrafficBySite.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\app\\AppWeeklySales.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\_dashboard\\app\\index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 163,
+                    "comment": 5,
+                    "filename": "src\\components\\_dashboard\\blog\\BlogPostCard.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 73,
+                    "comment": 3,
+                    "filename": "src\\components\\_dashboard\\blog\\BlogPostsSearch.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src\\components\\_dashboard\\blog\\BlogPostsSort.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\components\\_dashboard\\blog\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\components\\_dashboard\\products\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 66,
+                    "comment": 5,
+                    "filename": "src\\components\\_dashboard\\products\\ProductCard.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 3,
+                    "filename": "src\\components\\_dashboard\\products\\ProductCartWidget.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 209,
+                    "comment": 4,
+                    "filename": "src\\components\\_dashboard\\products\\ProductFilterSidebar.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src\\components\\_dashboard\\products\\ProductList.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 54,
+                    "comment": 2,
+                    "filename": "src\\components\\_dashboard\\products\\ProductSort.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\components\\_dashboard\\user\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 59,
+                    "comment": 2,
+                    "filename": "src\\components\\_dashboard\\user\\UserListHead.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 80,
+                    "comment": 3,
+                    "filename": "src\\components\\_dashboard\\user\\UserListToolbar.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 2,
+                    "filename": "src\\components\\_dashboard\\user\\UserMoreMenu.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src\\components\\animate\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 3,
+                    "filename": "src\\components\\animate\\MotionContainer.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 1,
+                    "filename": "src\\components\\animate\\variants\\bounce\\BounceIn.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 34,
+                    "comment": 1,
+                    "filename": "src\\components\\animate\\variants\\bounce\\BounceOut.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src\\components\\animate\\variants\\bounce\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src\\components\\animate\\variants\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "src\\components\\animate\\variants\\Wrap.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 2,
+                    "filename": "src\\components\\authentication\\AuthSocial.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\authentication\\login\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 93,
+                    "comment": 2,
+                    "filename": "src\\components\\authentication\\login\\LoginForm.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\authentication\\register\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 95,
+                    "comment": 2,
+                    "filename": "src\\components\\authentication\\register\\RegisterForm.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 199,
+                    "comment": 26,
+                    "filename": "src\\components\\charts\\BaseOptionChart.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\charts\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 90,
+                    "comment": 2,
+                    "filename": "src\\components\\ColorManyPicker.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 32,
+                    "comment": 3,
+                    "filename": "src\\components\\ColorPreview.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 71,
+                    "comment": 3,
+                    "filename": "src\\components\\Label.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 2,
+                    "filename": "src\\components\\Logo.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 46,
+                    "comment": 3,
+                    "filename": "src\\components\\MenuPopover.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 150,
+                    "comment": 3,
+                    "filename": "src\\components\\NavSection.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src\\components\\Page.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 52,
+                    "comment": 3,
+                    "filename": "src\\components\\Scrollbar.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "src\\components\\ScrollToTop.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 2,
+                    "filename": "src\\components\\SearchNotFound.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 1,
+                    "filename": "src\\components\\SvgIconStyle.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\http-common.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 3,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 43,
+                    "comment": 5,
+                    "filename": "src\\layouts\\AuthLayout.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 104,
+                    "comment": 5,
+                    "filename": "src\\layouts\\dashboard\\AccountPopover.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 64,
+                    "comment": 6,
+                    "filename": "src\\layouts\\dashboard\\DashboardNavbar.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 75,
+                    "comment": 6,
+                    "filename": "src\\layouts\\dashboard\\DashboardSidebar.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 36,
+                    "comment": 4,
+                    "filename": "src\\layouts\\dashboard\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 68,
+                    "comment": 4,
+                    "filename": "src\\layouts\\dashboard\\LanguagePopover.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 250,
+                    "comment": 4,
+                    "filename": "src\\layouts\\dashboard\\NotificationsPopover.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 77,
+                    "comment": 4,
+                    "filename": "src\\layouts\\dashboard\\Searchbar.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 41,
+                    "comment": 1,
+                    "filename": "src\\layouts\\dashboard\\SidebarConfig.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 4,
+                    "filename": "src\\layouts\\LogoOnlyLayout.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 3,
+                    "filename": "src\\pages\\DashboardApp.js"
+                },
+                {
+                    "filename": "src\\pages\\dummy.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 21,
+                    "code": 186,
+                    "comment": 4,
+                    "filename": "src\\pages\\EventViewer.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 54,
+                    "comment": 3,
+                    "filename": "src\\pages\\LiveCamera.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 70,
+                    "comment": 5,
+                    "filename": "src\\pages\\Login.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 44,
+                    "comment": 4,
+                    "filename": "src\\pages\\Page404.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 66,
+                    "comment": 4,
+                    "filename": "src\\pages\\Products.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 83,
+                    "comment": 5,
+                    "filename": "src\\pages\\Register.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 3,
+                    "filename": "src\\pages\\SensorData.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 664,
+                    "comment": 24,
+                    "filename": "src\\pages\\Settings.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 36,
+                    "comment": 2,
+                    "filename": "src\\pages\\SystemHealth.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 121,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppAmperageGrid.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppAmperageSensor.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 52,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppBugsOverTime.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppCpuTemp.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 39,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppCurrentTask.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "src\\pages\\Widgets\\AppDataTabs.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 55,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppDistributionOfTask.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 51,
+                    "comment": 5,
+                    "filename": "src\\pages\\Widgets\\AppDistributionOfTime.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppErrorReports.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 143,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppGasGrid.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 63,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppGasSensor.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppGpuTemp.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 121,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppHumidityGrid.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 73,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppHumiditySensor.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 92,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppLatestEvent.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 124,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppPhotoresistorGrid.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 67,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppPhotoresistorSensor.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 73,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppRamUsage.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 72,
+                    "comment": 6,
+                    "filename": "src\\pages\\Widgets\\AppRessourceMonitor.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppSuccessReports.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 121,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppTemperatureGrids.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppTempSensor.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 121,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\AppVoltageGrid.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 3,
+                    "filename": "src\\pages\\Widgets\\AppVoltageSensor.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 4,
+                    "filename": "src\\pages\\Widgets\\AppWarningsReports.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 179,
+                    "comment": 1,
+                    "filename": "src\\pages\\Widgets\\HealthGrid.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\reportWebVitals.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 37,
+                    "comment": 3,
+                    "filename": "src\\routes.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "src\\services\\db.services.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 89,
+                    "comment": 33,
+                    "filename": "src\\serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "src\\setupTests.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\theme\\breakpoints.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 67,
+                    "comment": 3,
+                    "filename": "src\\theme\\globalStyles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 34,
+                    "comment": 3,
+                    "filename": "src\\theme\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Autocomplete.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Backdrop.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 40,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Button.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 32,
+                    "comment": 2,
+                    "filename": "src\\theme\\overrides\\Card.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\IconButton.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 63,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Input.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Lists.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Paper.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Tooltip.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\theme\\overrides\\Typography.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 112,
+                    "comment": 2,
+                    "filename": "src\\theme\\palette.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 55,
+                    "comment": 2,
+                    "filename": "src\\theme\\shadows.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "src\\theme\\shape.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 95,
+                    "comment": 1,
+                    "filename": "src\\theme\\typography.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "src\\utils\\formatNumber.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "src\\utils\\formatTime.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "src\\utils\\mockImages.js"
+                },
+                {
+                    "blank": 9971,
+                    "code": 2636,
+                    "comment": 0,
+                    "filename": "yarn.lock"
+                }
+            ]
+        }
+    ]
+}
