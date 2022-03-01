@@ -99,6 +99,13 @@ app.get('/api/getEventCount', (req, res)=> {
     });
 })
 
+app.get('/api/getEvents', (req, res)=> {
+    const selectEventsData = "SELECT * FROM EVENTS";
+    db.query(selectEventsData, (err, result) => {
+        res.send(result);
+    });
+})
+
 app.listen(3001, () =>{
     console.log('running on port 3001')
 });

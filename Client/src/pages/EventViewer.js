@@ -13,26 +13,28 @@ import TableRow from '@mui/material/TableRow';
 // material
 import { Grid, Button, Container, Stack, Typography } from '@mui/material';
 // components
+import Axios from 'axios';
+import { useEffect, useState } from 'react';
 import Page from '../components/Page';
 
 // ----------------------------------------------------------------------
 
 const columns = [
-  { id: 'Event', label: 'Event', minWidth: 300 },
+  { id: 'EVENT', label: 'Event', minWidth: 300 },
   {
-    id: 'Type',
+    id: 'TYPE',
     label: 'Type',
     minWidth: 170,
     align: 'right'
   },
   {
-    id: 'Severity',
+    id: 'SEVERITY',
     label: 'Severity',
     minWidth: 170,
     align: 'right'
   },
   {
-    id: 'datetime',
+    id: 'DATETIME',
     label: 'Date/Time',
     minWidth: 170,
     align: 'right'
@@ -43,88 +45,13 @@ function createData(Event, Type, Severity, datetime) {
   return { Event, Type, Severity, datetime };
 }
 
-const rows = [
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  ),
-  createData(
-    'This is an error, a warning, a notification of any other event',
-    'Error',
-    'High',
-    '23 Dec 2020 23:38'
-  )
-];
-
-// ----------------------------------------------------------------------
+// const rows = [
+//   createData(
+//     'This is an error, a warning, a notification of any other event',
+//     'Error',
+//     'High',
+//     '23 Dec 2020 23:38'
+//   ),
 
 export default function EventViewer() {
   const [page, setPage] = React.useState(0);
@@ -133,6 +60,15 @@ export default function EventViewer() {
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
+
+  const [EVENTS, setEVENTS] = useState([]);
+
+  useEffect(() => {
+    Axios.get('http://localhost:3001/api/getEvents').then((response) => {
+      setEVENTS(response.data);
+      console.log(response.data);
+    });
+  }, []);
 
   return (
     <Page title="Event Viewer">
@@ -164,7 +100,7 @@ export default function EventViewer() {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => (
+                {EVENTS.map((row) => (
                   <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
                     {columns.map((column) => {
                       const value = row[column.id];
@@ -193,7 +129,7 @@ export default function EventViewer() {
           </TableContainer>
           <TablePagination
             component="div"
-            count={rows.length}
+            count={EVENTS.length}
             rowsPerPage={rowsPerPage}
             page={page}
             onPageChange={handleChangePage}
