@@ -20,24 +20,29 @@ import Page from '../components/Page';
 // ----------------------------------------------------------------------
 
 const columns = [
-  { id: 'EVENT', label: 'Event', minWidth: 300 },
+  {
+    id: 'EVENT',
+    label: 'Event',
+    minWidth: 300,
+    align: 'Left'
+  },
   {
     id: 'TYPE',
     label: 'Type',
     minWidth: 170,
-    align: 'right'
+    align: 'center'
   },
   {
     id: 'SEVERITY',
     label: 'Severity',
     minWidth: 170,
-    align: 'right'
+    align: 'center'
   },
   {
     id: 'DATETIME',
     label: 'Date/Time',
     minWidth: 170,
-    align: 'right'
+    align: 'center'
   }
 ];
 
@@ -100,7 +105,7 @@ export default function EventViewer() {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {EVENTS.map((row) => (
+                {EVENTS.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => (
                   <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
                     {columns.map((column) => {
                       const value = row[column.id];
@@ -113,7 +118,8 @@ export default function EventViewer() {
                             color: '#45a29e',
                             backgroundColor: '#1f2833',
                             fontSize: '1.2em',
-                            fontFamily: 'monospace'
+                            fontFamily: 'monospace',
+                            border: '1px solid'
                           }}
                         >
                           {column.format && typeof value === 'number'
