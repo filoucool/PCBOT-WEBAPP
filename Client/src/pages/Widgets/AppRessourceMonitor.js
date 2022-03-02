@@ -4,13 +4,10 @@ import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-import { Icon } from '@iconify/react';
-import bugFilled from '@iconify/icons-ant-design/bug-filled';
 // material
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Card } from '@mui/material';
 // utils
-import { fShortenNumber } from '../../utils/formatNumber';
 
 function LinearProgressWithLabel(props) {
   return (

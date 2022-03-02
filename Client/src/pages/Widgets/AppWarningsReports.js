@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 import alerttrianglefill from '@iconify/icons-eva/alert-triangle-fill';
 // material
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Card, Typography } from '@mui/material';
 // utils
 import Axios from 'axios';

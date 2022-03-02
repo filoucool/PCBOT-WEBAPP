@@ -1,19 +1,6 @@
-import {
-  Grid,
-  Button,
-  Container,
-  Stack,
-  Typography,
-  TextField,
-  Divider,
-  Card,
-  Icon
-} from '@mui/material';
-// components
-import SendIcon from '@mui/icons-material/Send';
-import Refresh from '@iconify/icons-eva/refresh-fill';
+import { Grid, Container, Typography, Card } from '@mui/material';
 
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import Axios from 'axios';
 import { useEffect, useState } from 'react';
 import Page from '../../components/Page';

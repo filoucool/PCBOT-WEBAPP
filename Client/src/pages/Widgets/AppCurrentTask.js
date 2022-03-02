@@ -1,10 +1,6 @@
-import { Icon } from '@iconify/react';
-import alerttrianglefill from '@iconify/icons-eva/alert-triangle-fill';
-// material
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Card, CircularProgress, Typography } from '@mui/material';
 // utils
-import { fShortenNumber } from '../../utils/formatNumber';
 
 // ----------------------------------------------------------------------
 

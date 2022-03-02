@@ -1,6 +1,3 @@
-import { Icon } from '@iconify/react';
-import plusFill from '@iconify/icons-eva/plus-fill';
-import { Link as RouterLink } from 'react-router-dom';
 import * as React from 'react';
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
@@ -11,7 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 // material
-import { Grid, Button, Container, Stack, Typography } from '@mui/material';
+import { Container, Stack, Typography } from '@mui/material';
 // components
 import Axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -45,18 +42,6 @@ const columns = [
     align: 'center'
   }
 ];
-
-function createData(Event, Type, Severity, datetime) {
-  return { Event, Type, Severity, datetime };
-}
-
-// const rows = [
-//   createData(
-//     'This is an error, a warning, a notification of any other event',
-//     'Error',
-//     'High',
-//     '23 Dec 2020 23:38'
-//   ),
 
 export default function EventViewer() {
   const [page, setPage] = React.useState(0);
