@@ -6,10 +6,10 @@ const cors = require('cors')
 const mysql = require('mysql')
 
 const db = mysql.createPool({
-    host: "sql5.freemysqlhosting.net",
-    user: "sql5475621",
-    password: "6qBvim2ytx",
-    database: "sql5475621"
+    host: "",
+    user: "",
+    password: "",
+    database: ""
 })
 
 app.use(cors())
